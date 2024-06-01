@@ -12,6 +12,9 @@ public class MathUtilLive {
         long n = ClassCon.getFactorial(m);
         System.out.println(m + "! expect = 120. actual = " + n);
         
+        //day la khu vuc ta sua code. luc 5.35 01-jun-24
+        System.out.println("3! expect = 6. actual = " + ClassCon.getFactorial(3));
+        
     }
     
 }
